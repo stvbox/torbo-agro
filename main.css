@@ -1,0 +1,61 @@
+.geo-input-holder {
+    display: inline-block;
+}
+.geo-input-holder * {
+    /*margin: 1px;
+    border: 1px black solid;*/
+}
+.geo-input-holder input {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+    outline:none;
+    /*border: 1px black solid;
+    border-radius: 5px;*/
+}
+.input-border {
+    position: relative;
+}
+.input-address {
+    width: 95%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+.input-address > span {
+    margin: 5px;
+    /*font-size: 10px;*/
+    white-space: nowrap;
+}
+.input-places {
+    width: 100%;
+    min-height: 1em;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+}
+.input-places > div {
+    cursor: pointer;
+}
+.input-places > div:hover {
+    background-color: yellow;
+}
+.row {
+    padding: 20px;
+}
+.row > * {
+    padding: 5px;
+}
+.loader {
+    background: url(/assets/timer.svg) no-repeat;
+    background-size: 1em;
+    background-position: center;
+    color: transparent!important;
+}
